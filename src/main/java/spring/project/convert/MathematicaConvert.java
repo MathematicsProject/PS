@@ -7,28 +7,19 @@ import com.wolfram.jlink.*;
 
 @Controller
 public class MathematicaConvert {
-	private String equation;
 
 	public MathematicaConvert() {
 
 	}
 
-	public String getEquation() {
-		return equation;
-	}
-
-	public void setEquation(String equation) {
-		this.equation = equation;
-	}
-
-	
-	public String calcMathematica() {
+	public String calcMathematica(String equation) {
 		KernelLink ml = null;
 		String expr;
 		try {
 			ml = MathLinkFactory.createKernelLink("-linkmode launch -linkname '/opt/Wolfram/WolframEngine/10.3/Executables/MathKernel'");
 			ml.discardAnswer();
-			expr = ml.evaluateToOutputForm("Sum[k^2, {k,1,11}]", 0); // sample
+			//expr = ml.evaluateToOutputForm("Sum[k^2, {k,1,11}]", 0); // sample
+			expr = ml.evaluateToOutputForm(equation, 0);
 			ml.close();
 			//
 			return expr; 

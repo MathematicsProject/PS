@@ -13,7 +13,8 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import spring.project.convert.MathematicaConvert;
+import spring.project.convert.*;
+
 
 /**
  * Handles requests for the application home page.
@@ -42,11 +43,25 @@ public class HomeController {
 	@RequestMapping(value = "/results", method = RequestMethod.GET)
 	public String notice(Locale locale, Model model,
 			HttpServletRequest request) {
-
+		
+		String equation = request.getParameter("String");
+		
 		MathematicaConvert mm = new MathematicaConvert();
-		String expr = mm.calcMathematica();
+		
+		String expr = mm.calcMathematica(equation);
 		model.addAttribute("expr", expr);							
 		
 		return "results";
+	}
+	
+	@RequestMapping(value = "/ocr", method = RequestMethod.GET)
+	public String ocr(Locale locale, Model model,
+			HttpServletRequest request) {
+
+		TesseractExample mm = new TesseractExample();
+		String expr = mm.ocr();
+		model.addAttribute("expr", expr);							
+		
+		return "ocr";
 	}
 }

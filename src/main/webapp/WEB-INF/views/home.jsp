@@ -6,5 +6,6 @@
 </head>
 <body>
 <p> <a href="/PS/results">mathematica</a>
+<p> <a href="/PS/ocr">ocr</a>
 </body>
 </html>
