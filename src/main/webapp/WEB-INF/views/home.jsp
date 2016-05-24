@@ -7,5 +7,7 @@
 <body>
 <p> <a href="/PS/results">mathematica</a>
 <p> <a href="/PS/ocr">ocr</a>
+
+<p> <a href="/PS/confirm">confirm</a>
 </body>
 </html>

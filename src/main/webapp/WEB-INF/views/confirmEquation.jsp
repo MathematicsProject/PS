@@ -7,9 +7,11 @@
 <title>Insert title here</title>
 </head>
 <body>
-result : ${expr} <br>
 
-<img src="data:image/jpeg;base64,${encode1}" alt="..." width="200" height="200">`
-<img src="data:image/jpeg;base64,${encode2}" alt="..." width="200" height="200">`
+<form action="/PS/results" method="GET">
+
+confirmEquation Text : <input type="text" name= "String" value=""/> <br>
+
+<input type="submit" value="SubmitOrder" > </form>
 </body>
 </html>
