@@ -29,15 +29,19 @@
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="D:/4-1/WebFramwork/PSgit/PS/src/main/webapp/WEB-INF/lib/JLink.jar"/>
 	<classpathentry kind="lib" path="D:/4-1/WebFramwork/PSgit/PS/src/main/webapp/WEB-INF/lib/AppleJavaExtensions.jar"/>
 	<classpathentry kind="lib" path="D:/4-1/WebFramwork/PSgit/PS/src/main/webapp/WEB-INF/lib/commons-beanutils-1.9.2.jar"/>
+	<classpathentry kind="lib" path="D:/4-1/WebFramwork/PSgit/PS/src/main/webapp/WEB-INF/lib/commons-codec-1.3.jar"/>
 	<classpathentry kind="lib" path="D:/4-1/WebFramwork/PSgit/PS/src/main/webapp/WEB-INF/lib/commons-io-2.4.jar"/>
 	<classpathentry kind="lib" path="D:/4-1/WebFramwork/PSgit/PS/src/main/webapp/WEB-INF/lib/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="D:/4-1/WebFramwork/PSgit/PS/src/main/webapp/WEB-INF/lib/commons-logging-api-1.0.3.jar"/>
 	<classpathentry kind="lib" path="D:/4-1/WebFramwork/PSgit/PS/src/main/webapp/WEB-INF/lib/ghost4j-1.0.0.jar"/>
 	<classpathentry kind="lib" path="D:/4-1/WebFramwork/PSgit/PS/src/main/webapp/WEB-INF/lib/hamcrest-core-1.3.jar"/>
+	<classpathentry kind="lib" path="D:/4-1/WebFramwork/PSgit/PS/src/main/webapp/WEB-INF/lib/httpclient-4.0.jar"/>
+	<classpathentry kind="lib" path="D:/4-1/WebFramwork/PSgit/PS/src/main/webapp/WEB-INF/lib/httpcore-4.0.1.jar"/>
 	<classpathentry kind="lib" path="D:/4-1/WebFramwork/PSgit/PS/src/main/webapp/WEB-INF/lib/itext-2.1.7.jar"/>
 	<classpathentry kind="lib" path="D:/4-1/WebFramwork/PSgit/PS/src/main/webapp/WEB-INF/lib/jai_imageio.jar"/>
+	<classpathentry kind="lib" path="D:/4-1/WebFramwork/PSgit/PS/src/main/webapp/WEB-INF/lib/JLink.jar"/>
 	<classpathentry kind="lib" path="D:/4-1/WebFramwork/PSgit/PS/src/main/webapp/WEB-INF/lib/jna.jar"/>
 	<classpathentry kind="lib" path="D:/4-1/WebFramwork/PSgit/PS/src/main/webapp/WEB-INF/lib/jul-to-slf4j-1.7.13.jar"/>
 	<classpathentry kind="lib" path="D:/4-1/WebFramwork/PSgit/PS/src/main/webapp/WEB-INF/lib/junit-4.12.jar"/>
@@ -48,6 +52,8 @@
 	<classpathentry kind="lib" path="D:/4-1/WebFramwork/PSgit/PS/src/main/webapp/WEB-INF/lib/rococoa-core-0.5.jar"/>
 	<classpathentry kind="lib" path="D:/4-1/WebFramwork/PSgit/PS/src/main/webapp/WEB-INF/lib/slf4j-api-1.7.13.jar"/>
 	<classpathentry kind="lib" path="D:/4-1/WebFramwork/PSgit/PS/src/main/webapp/WEB-INF/lib/tess4j-3.0.jar"/>
+	<classpathentry kind="lib" path="D:/4-1/WebFramwork/PSgit/PS/src/main/webapp/WEB-INF/lib/WolframAlpha-1.1.jar"/>
 	<classpathentry kind="lib" path="D:/4-1/WebFramwork/PSgit/PS/src/main/webapp/WEB-INF/lib/xmlgraphics-commons-1.5.jar"/>
+	<classpathentry kind="lib" path="D:/4-1/WebFramwork/javaspring/OCRfinal/lib/ocr_preprocess.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
